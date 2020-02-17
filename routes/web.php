@@ -11,14 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+Route::any('/', function () {
+    return view('index');
 });
 
-Route::get('/example', function () {
-    return view('example');
-});
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::any('/{any}', function (\Illuminate\Http\Request $request) {
+    if(file_exists(public_path($request->path()))){
+        return response()->file(public_path($request->path()));
+    }else{
+        return redirect('/');
+    }
+})->where('any', '.*');
