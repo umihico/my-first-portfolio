@@ -16,3 +16,8 @@ use Illuminate\Http\Request;
 //Route::middleware('auth:api')->get('/user', function (Request $request) {
 //    return $request->user();
 //});
+
+Route::any('/msg', function () {
+    \Illuminate\Support\Facades\Log::channel('slack')->critical(json_encode(request()->all(), JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+    return 200;
+});
