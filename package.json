@@ -15,11 +15,11 @@
         "bootstrap": "^4.5.2",
         "cross-env": "^7.0",
         "jquery": "^3.5",
-        "laravel-mix": "^5.0.5",
+        "laravel-mix": "^5.0.6",
         "lodash": "^4.17.20",
         "popper.js": "^1.12",
         "resolve-url-loader": "^3.1.1",
-        "sass": "^1.26.11",
+        "sass": "^1.27.0",
         "sass-loader": "^10.0.2",
         "serverless-domain-manager": "^5.0.0",
         "vue": "^2.6.12",
@@ -27,7 +27,7 @@
     },
     "dependencies": {
         "vue": "^2.6.11",
-        "vue-router": "^3.4.5",
-        "vuetify": "^2.3.12"
+        "vue-router": "^3.4.6",
+        "vuetify": "^2.3.13"
     }
 }
