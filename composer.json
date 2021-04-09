@@ -11,15 +11,15 @@
         "php": "^8.0",
         "bref/bref": "^0.5.15",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "^6.2",
+        "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "laravel/ui": "^1.2"
+        "laravel/ui": "^3.0"
     },
     "require-dev": {
-        "facade/ignition": "^1.4",
+        "facade/ignition": "^2.3.6",
         "fakerphp/faker" :"^1.9.1",
         "mockery/mockery": "^1.0",
-        "nunomaduro/collision": "^3.0",
+        "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "^9.3"
     },
     "config": {
