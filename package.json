@@ -15,7 +15,7 @@
         "bootstrap": "^5.0.1",
         "cross-env": "^7.0",
         "jquery": "^3.6",
-        "laravel-mix": "^6.0.20",
+        "laravel-mix": "^6.0.22",
         "lodash": "^4.17.21",
         "popper.js": "^1.12",
         "resolve-url-loader": "^4.0.0",
@@ -26,7 +26,7 @@
         "vue-template-compiler": "^2.6.14"
     },
     "dependencies": {
-        "npm": "^7.17.0",
+        "npm": "^7.18.1",
         "vue": "^2.6.11",
         "vue-router": "^3.5.1",
         "vuetify": "^2.5.4"
