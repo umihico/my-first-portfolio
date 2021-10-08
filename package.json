@@ -12,7 +12,7 @@
     "devDependencies": {
         "@mdi/font": "^6.2.95",
         "axios": "^0.22.0",
-        "bootstrap": "^5.1.1",
+        "bootstrap": "^5.1.2",
         "cross-env": "^7.0",
         "jquery": "^3.6",
         "laravel-mix": "^6.0.31",
@@ -26,7 +26,7 @@
         "vue-template-compiler": "^2.6.14"
     },
     "dependencies": {
-        "npm": "^7.24.1",
+        "npm": "^8.0.0",
         "vue": "^2.6.11",
         "vue-router": "^3.5.2",
         "vuetify": "^2.5.9"
