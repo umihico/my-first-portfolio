@@ -19,16 +19,16 @@
         "lodash": "^4.17.21",
         "popper.js": "^1.12",
         "resolve-url-loader": "^5.0.0",
-        "sass": "^1.49.0",
+        "sass": "^1.49.7",
         "sass-loader": "^12.4.0",
-        "serverless-domain-manager": "^5.4.1",
+        "serverless-domain-manager": "^5.8.0",
         "vue": "^2.6.14",
         "vue-template-compiler": "^2.6.14"
     },
     "dependencies": {
-        "npm": "^8.3.2",
+        "npm": "^8.4.0",
         "vue": "^2.6.11",
         "vue-router": "^3.5.3",
-        "vuetify": "^2.6.2"
+        "vuetify": "^2.6.3"
     }
 }
